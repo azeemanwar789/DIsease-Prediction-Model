@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 import time
 
 # Path to your trained Logistic Regression model .joblib file
-model_file = r"C:\Azeem's Work\IDC Internship\2nd Month\Report-Tasks\Week 7&8 Task Material\lr_disease_prediction_model.joblib"
+model_file = "Model2/model/lr_disease_prediction_model.joblib"
 
 # Load the trained Logistic Regression model
 model = load(model_file)
